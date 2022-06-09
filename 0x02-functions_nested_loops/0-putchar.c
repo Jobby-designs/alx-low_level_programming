@@ -1,20 +1,12 @@
-#include "main.h"
+#include <stdio.h>
+
 /**
- * main - Entry block
- * Description: prints holberton on new line
- * Return: 0
-*/
+ * main - print wwith _putchar
+* Return: 0 always
+ */
+
 int main(void)
 {
-		char c[10] = "Holberton";
-
-			int i = 0;
-
-				while (i < 8)
-						{
-									_putchar(c[i]);
-											i++;
-												}
-					_putchar('\n');
-						return (0);
+		printf("_putchar\n");
+			return (0);
 }
