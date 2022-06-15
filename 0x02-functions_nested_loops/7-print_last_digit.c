@@ -1,20 +1,28 @@
 #include "main.h"
 
 /**
- * _abs - calculates the absolute value of int
- * @a: integer to be examined
- * Return: 0, always
+ * print_last_digit - prints last digit of input
+ * @a: number to be sructinized
+ * Return: last digit of a
  */
-int _abs(int a)
+
+int print_last_digit(int a)
 {
 	if (a < 0)
 	{
 		a = a / -1;
+		a = a % 10;
 	}
-	else
+	else if (a == 0)
 	{
 		a = a;
 	}
+	else
+	{
+		a = a % 10;
+	}
+
+	_putchar(a + '0');
+
 	return (a);
 }
- 
