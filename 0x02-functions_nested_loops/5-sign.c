@@ -2,7 +2,7 @@
 #include "stdio.h"
 
 /**
- * print_sign - print signed numbers 
+ * print_sign - print signed numbers
  * @n: number to be checked
  * Return: 0, 1,-1 (value of sign)
  */
