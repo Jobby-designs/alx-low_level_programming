@@ -2,28 +2,18 @@
 
 /**
  * print_last_digit - prints last digit of input
- * @a: number to be sructinized
- * Return: last digit of a
+ * @a: n is an integer
+ * Return: integer
  */
 
-int print_last_digit(int a)
+int print_last_digit(int n)
 {
-	if (a < 0)
-	{
-		a = a / -1;
-		a = a % 10;
-	}
-	else if (a == 0)
-	{
-		a = a;
-	}
-	else
-	{
-		a = a % 10;
-	}
+	int last = n % 10;
 
-	_putchar(a + '0');
-_putchar( '\n' );
+	if (n < 0)
+		last = last * -1;
 
-	return (a);
+	_putchar(last + '0');
+
+	return (last);
 }
