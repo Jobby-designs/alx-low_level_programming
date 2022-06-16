@@ -3,6 +3,9 @@
 /**
  * print_last_digit - prints last digit of input
  * @a: n is an integer
+
+ *Description: prints the last digit of a number
+
  * Return: integer
  */
 
