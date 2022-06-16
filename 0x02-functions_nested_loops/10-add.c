@@ -3,7 +3,7 @@
  * add - function that adds two integers together
  * @a: takes in an integer
  * @b: takes in an integer
- * Return: c result 
+ * Return: result
  */
 int add(int a, int b)
 {
