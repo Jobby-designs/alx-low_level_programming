@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 /**
- * #include <stdio.h>
+ * main - Entry point
+ *
  * c: char
+ *
  * Return: 0
  */
 
